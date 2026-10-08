@@ -1,0 +1,85 @@
+ * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+}
+
+.profile-card {
+  width: 350px;
+  min-height: 550px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 30px 25px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  position: relative;
+}
+
+/* My Profile Heading */
+.profile-card h1 {
+  margin: 0 0 25px 0;
+  font-size: 28px;
+  color: #222222;
+}
+
+/* Profile Image */
+.profile-image {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 35px auto;
+}
+
+/* Details */
+.profile-details {
+  width: 100%;
+}
+
+.profile-item {
+  margin-bottom: 30px;
+}
+
+.profile-item h3 {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+  color: #222222;
+}
+
+.profile-item p {
+  margin: 0;
+  font-size: 16px;
+  color: #666666;
+}
+
+/* Plus Button */
+.add-button {
+  position: absolute;
+  right: 18px;
+  bottom: 18px;
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  background: #000000;
+  color: #ffffff;
+  font-size: 28px;
+  line-height: 45px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background: #333333;
+}
